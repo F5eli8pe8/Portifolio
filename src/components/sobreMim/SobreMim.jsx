@@ -51,7 +51,7 @@ export default function SobreMim() {
   }, []);
 
   return (
-    <div className={Style.containerPrincipal}>
+    <div className={Style.containerPrincipalSobreMim}>
 
       <div>
         <div className={`${Style.containerFoto} ${Style.fadeIn} ${Style.fadeInDelay1}`}>
@@ -96,12 +96,17 @@ export default function SobreMim() {
         </div>
 
         <div className={` ${Style.containerBotao} ${raleway.className} ${Style.fadeIn} ${Style.fadeInDelay3}`}>
-          <button className={Style.Botao}>
+              <a href="/Currículo-Valdenilson Felipe.pdf" download className={Style.Botao} >
             <span className={Style.Icon}><FaDownload/></span>CURRÍCULO
-          </button>
-          <button className={Style.Botao}>
+              </a>
+        
+          <a    
+              href="https://wa.me/5581991732307?text=Olá%2C%20vi%20seu%20portfólio%20e%20gostaria%20de%20entrar%20em%20contato!"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={Style.Botao}>
             <span className={Style.Icon}><FaEnvelope /></span>CONTATO
-          </button>
+          </a>
         </div>
 
       </div>

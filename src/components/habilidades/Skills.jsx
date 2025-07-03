@@ -5,7 +5,7 @@ import Style from './Skills.module.css'
 
 export default function Skills() {
     return (
-        <div className={Style.containerPrincipal}>
+        <div className={Style.containerPrincipalHabilidades}>
             
             <div className={Style.containerTexto}>
                 <h1>Habilidades</h1>
@@ -21,17 +21,17 @@ export default function Skills() {
                 </div>
 
                 <div className={Style.card}>
-                    <img src="/images/Habilidades/NextLogo.Png" alt="NEXT" />
+                    <img src="/images/Habilidades/NextLogo.png" alt="NEXT" />
                     <p>Next.js</p>
                 </div>
 
                 <div className={Style.card}>
-                    <img src="/images/Habilidades/ReactLogo.Png" alt="React" />
+                    <img src="/images/Habilidades/ReactLogo.png" alt="React" />
                     <p>React</p>
                 </div>
 
                 <div className={Style.card}>
-                    <img src="/images/Habilidades/HtmlLogo.Png" alt="HTML" />
+                    <img src="/images/Habilidades/HtmlLogo.png" alt="HTML" />
                     <p>HTML</p>
                 </div>
 
@@ -41,7 +41,7 @@ export default function Skills() {
             <div className={Style.containerCard}>
                 
                 <div className={Style.card}>
-                    <img src="/images/Habilidades/cssLogo.Png" alt="CSS" />
+                    <img src="/images/Habilidades/cssLogo.png" alt="CSS" />
                     <p>CSS</p>
                 </div>
 
