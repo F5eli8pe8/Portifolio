@@ -1,0 +1,228 @@
+
+.containerPrincipal{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: #151719;
+    gap: 250px;
+    margin-top: 40px; 
+
+
+}
+
+.containerFoto{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    overflow: hidden;
+    box-shadow: 0 0 15px #0c4d4d, 0 0 30px #0c4d4d, 0 0 45px #0c4d4d;
+    transition: box-shadow 0.3s ease;;
+}
+.containerFoto:hover {
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px #00ffff;
+}
+
+
+.containerFoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Corta a imagem para preencher o container */
+}
+
+
+.containerTexto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 10px;
+}
+
+.containerNome{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.containerFuncao{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.containerDescricao p {
+  text-align: center;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #ffffff; /* um branco suave */
+}
+
+
+.containerBotao {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+  }
+
+  .Botao {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaço entre ícone e texto */
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+
+  .Botao:hover {
+    background-color: white;
+    color: #151719;
+  }
+
+
+
+  .NomeEstilo{
+    font-family:'Raleway';
+    font-size: '2.5rem';
+    font-Weight: 700;
+    color: 'white';
+    text-Align: 'center';
+  }
+  
+  
+  
+  .cursor{
+    display: inline-block;
+    width: 1ch;
+    animation: blink 1s steps(1) infinite;
+     color: white;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+  @keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform:translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform:translateY(0);
+    }
+  }
+
+  .fadeIn{
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
+    animation-fill-mode: forwards;  }
+
+  .fadeInDelay1{
+    animation-delay: 0.3s;
+  }
+
+  .fadeInDelay2{
+    animation-delay: 0.6s;
+  }
+
+  .fadeInDelay3{
+    animation-delay: 0.9s;
+  }
+
+  .Icon {
+    display: inline-flex;
+    align-items: center;
+  }
+
+
+  @media (max-width: 720px) {
+  
+    .Icon {
+    display: none;
+  }
+  .containerPrincipal {
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .containerTexto {
+    width: 100%;
+  }
+
+  .containerNome {
+    font-size: 2rem;
+  }
+
+  .containerFuncao {
+    font-size: 1.2rem;
+  }
+
+  .containerDescricao p {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .containerFoto {
+    width: 200px;
+    height: 200px;
+  }
+
+  .containerBotao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Botao {
+    width: 80%;
+    justify-content: center;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerNome {
+    font-size: 1.6rem;
+  }
+
+  .containerFuncao {
+    font-size: 1rem;
+  }
+
+  .containerDescricao p {
+    font-size: 0.9rem;
+  }
+
+  .containerFoto {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Botao {
+    width: 100%;
+    font-size: 13px;
+    padding: 7px 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+}
