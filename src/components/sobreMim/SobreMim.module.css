@@ -157,7 +157,7 @@
     .Icon {
     display: none;
   }
-  .containerPrincipal {
+  .containerPrincipalSobreMim {
     flex-direction: column;
     gap: 50px;
     padding: 40px 20px;
