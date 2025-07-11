@@ -26,6 +26,13 @@ const projetos = [
     github: "https://github.com/F5eli8pe8/Calculadora",
     deploy: "https://calculadora-fawn.vercel.app"
   },
+  {
+    titulo: "tela de inicio: EasyStay",
+    imagem: "/images/Projetos/EasyStayFoto.png",
+    github: "https://github.com/F5eli8pe8/Tela_Inicial_EasyStay",
+    deploy: "https://tela-inicial-easy-stay.vercel.app"
+
+  },
 ];
 
 export default function Projetos() {
