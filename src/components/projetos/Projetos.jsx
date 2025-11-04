@@ -32,7 +32,13 @@ const projetos = [
     github: "https://github.com/F5eli8pe8/Tela_Inicial_EasyStay",
     deploy: "https://tela-inicial-easy-stay.vercel.app"
 
-  },
+  },{
+    titulo: "Pesquisar Livros",
+    imagem: "/images/Projetos/BuscaLivros.png",
+    github: "https://github.com/F5eli8pe8/Projeto-Api-Livros",
+    deploy: "https://projeto-api-livros.vercel.app"
+
+  }
 ];
 
 export default function Projetos() {

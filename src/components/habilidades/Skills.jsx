@@ -34,6 +34,11 @@ export default function Skills() {
                     <img src="/images/Habilidades/HtmlLogo.png" alt="HTML" />
                     <p>HTML</p>
                 </div>
+                
+                <div className={Style.card}>
+                    <img src="/images/Habilidades/TypeLogo.png" alt="TypeScript" />
+                    <p>TypeScript</p>
+                </div>
 
 
 
@@ -53,6 +58,16 @@ export default function Skills() {
                 <div className={Style.card}>
                     <img src="/images/Habilidades/GitHubLogo.png" alt="GitHub" />
                     <p>GitHub</p>
+                </div>
+                
+                <div className={Style.card}>
+                    <img src="/images/Habilidades/PythonLogo.png" alt="Python" />
+                    <p>Python</p>
+                </div>
+                
+                <div className={Style.card}>
+                    <img src="/images/Habilidades/DjangoLogo.png" alt="Django" />
+                    <p>Django</p>
                 </div>
 
 

@@ -96,7 +96,7 @@ export default function SobreMim() {
         </div>
 
         <div className={` ${Style.containerBotao} ${raleway.className} ${Style.fadeIn} ${Style.fadeInDelay3}`}>
-              <a href="/Currículo-Valdenilson Felipe.pdf" download className={Style.Botao} >
+              <a href="/CURRÍCULO VALDENILSON FELIPE.pdf" download className={Style.Botao} >
             <span className={Style.Icon}><FaDownload/></span>CURRÍCULO
               </a>
         
