@@ -2,12 +2,11 @@
     min-height: 100vh;
     width: 100%;
     background-color:  #0a0a0a;
+    padding-top: 4rem;
 }
 
 .containerTexto {
     text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
     animation: fadeIn 1s ease-in-out;
     font-family: Raleway, sans-serif;
 }
@@ -45,6 +44,7 @@
     align-items: center;
     width: 150px;
     margin: 1rem;
+    color:#fff
 }
 
 
