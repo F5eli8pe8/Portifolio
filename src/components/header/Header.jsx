@@ -11,7 +11,7 @@ export default function Header({ scrollToSection, sobreRef, habilidadesRef, proj
 
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>Seja Bem-Vindo!</div>
+      <div className={styles.logo}>Bem-Vindo.</div>
 
       <button
         className={styles.menuButton}

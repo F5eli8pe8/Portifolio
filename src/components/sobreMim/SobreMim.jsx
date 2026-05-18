@@ -79,14 +79,14 @@ export default function SobreMim() {
             }}
             startDelay={2000}
             cursorColor="white"
-            text="Frontend Developer"
+            text="Full-Stack Developer"
             typeSpeed={100}
             hideCursorAfterText={true}
           />        </div>
 
         <div className={`${Style.containerDescricao} ${raleway.className} ${Style.fadeIn} ${Style.fadeInDelay2}`}> 
           <p>
-          Olá, Meu nome é Felipe e sou programador Front-end cursando atualmente Análise e Desenvolvimento de Sistemas na rede de ensino superior Uninter através do programa do governo ProUni. 
+          Olá, Meu nome é Felipe e sou programador Full-Stack cursando atualmente Análise e Desenvolvimento de Sistemas na rede de ensino superior Uninter através do programa do governo ProUni. 
               <br />
               <br />
           Consigo me comunicar com facilidade e tenho habilidades com organização para projetos e interação em equipe, 

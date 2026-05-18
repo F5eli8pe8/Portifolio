@@ -11,8 +11,8 @@ const projetos = [
   {
     titulo: "Carrinho de compras",
     imagem: "/images/Projetos/CarrinhoComp.png",
-    github: "https://github.com/F5eli8pe8/Carrinho-de-compras",
-    deploy: "https://carrinho-de-compras-bay-zeta.vercel.app"
+    github: "https://github.com/F5eli8pe8/MistShop",
+    deploy: "https://mist-shop-peach.vercel.app"
   },
   {
     titulo: "Representa",
@@ -37,6 +37,12 @@ const projetos = [
     imagem: "/images/Projetos/BuscaLivros.png",
     github: "https://github.com/F5eli8pe8/Projeto-Api-Livros",
     deploy: "https://projeto-api-livros.vercel.app"
+
+  },{
+    titulo: "LinkVault",
+    imagem: "/images/Projetos/LinkVault.png",
+    github: "https://github.com/F5eli8pe8/linkvault",
+    deploy: "https://linkvault-umber.vercel.app"
 
   }
 ];
