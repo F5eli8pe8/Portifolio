@@ -1,0 +1,224 @@
+
+.containerPrincipal {
+    padding: 40px;
+    background-color: #111;
+    color: white;
+    min-height: 100vh;
+    
+}
+
+.containerTexto {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.containerTexto h1 {
+    font-size: 3rem;
+    color: #fff; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.containerTexto p {
+    font-size: 1.2rem;
+    color: #ddd;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.containerCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.imageWrapper {
+    position: relative;
+}
+
+.imagem {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.iconLink {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: orange;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 50%;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.titulo {
+    font-size: 1.2rem;
+    margin: 16px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 16px 16px;
+    gap: 10px;
+}
+
+.btnRepositório,
+.btnDeploy {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.btnRepositório {
+    background-color: white;
+    color: black;
+}
+
+.btnRepositório:hover {
+    background-color: #ddd;
+}
+
+.btnDeploy {
+    background-color: #0c4d4d;
+    color: white;
+}
+
+.btnDeploy:hover {
+    background-color:#00ffff;
+}
+
+.carouselWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.seta {
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.carouselWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.seta {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.seta:hover {
+  transform: scale(1.2);
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 280px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+/* Telas até 768px (tablets e celulares maiores) */
+@media (max-width: 768px) {
+  .containerPrincipal {
+    padding: 20px;
+  }
+
+  .containerTexto h1 {
+    font-size: 2rem;
+  }
+
+  .containerTexto p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .cardsContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 90%; /* ocupa mais espaço da tela */
+    margin: 0 auto;
+  }
+
+  .carouselWrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .seta {
+    font-size: 1.8rem;
+  }
+}
+
+/* Telas até 480px (celulares pequenos) */
+@media (max-width: 1024px) {
+  .containerTexto h1 {
+    font-size: 1.9rem;
+  }
+
+  .containerTexto p {
+    font-size: 1.0rem;
+  }
+
+  .btnRepositório,
+  .btnDeploy {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .seta {
+    font-size: 1.5rem;
+    padding: 6px;
+  }
+
+  .imagem {
+    height: 140px;
+  }
+}
