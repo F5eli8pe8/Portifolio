@@ -3,10 +3,11 @@ import React, { useState } from 'react';
 
 const projetos = [
   {
-    titulo: "Meus-Favoritos",
-    imagem: "/images/Projetos/MeusFav.png",
-    github: "https://github.com/F5eli8pe8/Meus-Favoritos",
-    deploy: "https://meus-favoritos.vercel.app"
+    titulo: "Pesquisar Livros",
+    imagem: "/images/Projetos/BuscaLivros.png",
+    github: "https://github.com/F5eli8pe8/Projeto-Api-Livros",
+    deploy: "https://projeto-api-livros.vercel.app"
+
   },
   {
     titulo: "Carrinho de compras",
@@ -15,8 +16,14 @@ const projetos = [
     deploy: "https://mist-shop-peach.vercel.app"
   },
   {
+    titulo: "NextTask",
+    imagem: "/images/Projetos/Nextask.png",
+    github: "https://github.com/F5eli8pe8/nextesk-web",
+    deploy: "https://nextesk-web.vercel.app"
+  },
+  {
     titulo: "Representa",
-    imagem: "/images/Projetos/Representa.png",
+    imagem: "/images/Projetos/Represent.png",
     github: "https://github.com/F5eli8pe8/Representa",
     deploy: "https://representa.vercel.app"
   },
@@ -32,13 +39,14 @@ const projetos = [
     github: "https://github.com/F5eli8pe8/Tela_Inicial_EasyStay",
     deploy: "https://tela-inicial-easy-stay.vercel.app"
 
-  },{
-    titulo: "Pesquisar Livros",
-    imagem: "/images/Projetos/BuscaLivros.png",
-    github: "https://github.com/F5eli8pe8/Projeto-Api-Livros",
-    deploy: "https://projeto-api-livros.vercel.app"
-
-  },{
+  },
+  {
+    titulo: "Meus-Favoritos",
+    imagem: "/images/Projetos/MeusFav.png",
+    github: "https://github.com/F5eli8pe8/Meus-Favoritos",
+    deploy: "https://meus-favoritos.vercel.app"
+  },
+  {
     titulo: "LinkVault",
     imagem: "/images/Projetos/LinkVault.png",
     github: "https://github.com/F5eli8pe8/linkvault",
