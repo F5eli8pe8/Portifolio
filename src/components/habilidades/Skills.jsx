@@ -40,7 +40,10 @@ export default function Skills() {
                     <p>TypeScript</p>
                 </div>
 
-
+                <div className={Style.card}>
+                    <img src="/images/Habilidades/javaLogo.png" alt="Java" />
+                    <p>Java</p>
+                </div>
 
             </div>
             <div className={Style.containerCard}>
@@ -70,8 +73,14 @@ export default function Skills() {
                     <p>Django</p>
                 </div>
 
-
+                <div className={Style.card}>
+                    <img src="/images/Habilidades/springLogo.png" alt="Spring" />
+                    <p>Spring Boot</p>
+                </div>
+                
             </div>
+
+            
         </div>
     )
 }
